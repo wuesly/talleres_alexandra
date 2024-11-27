@@ -1,0 +1,61 @@
+/* General settings */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Container for Pokémon cards */
+div {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+div:hover {
+    transform: translateY(-5px);
+}
+
+/* Pokémon Image */
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Pokémon Name */
+h1 {
+    font-size: 24px;
+    color: #ff4500;
+    margin-bottom: 10px;
+}
+
+/* Pokémon Number */
+h2 {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* Pokémon Ability */
+h2#avilidad,
+h2#avilidad2 {
+    font-size: 16px;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+/* Mobile Friendly */
+@media (max-width: 600px) {
+    div {
+        max-width: 90%;
+    }
+}
