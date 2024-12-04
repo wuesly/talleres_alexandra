@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votaciones</title>
+    <link rel="stylesheet" href="/taller votacciones app/votaccion.css">
+</head>
+<body>
+    <!-- Sección de Login -->
+    <div id="login">
+        <h1>Inicio de Sesión</h1>
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario"><br><br>
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña"><br><br>
+        <button id="abrir">Abrir Elecciones</button>
+        <button id="cerrar">Cerrar Elecciones</button>
+    </div>
+
+    <!-- Sección de Votaciones -->
+    <div id="votaciones" style="display: none;">
+        <h1>Votaciones</h1>
+        <ul id="votacion"></ul>
+        <button id="verResultados">Ver resultados</button>
+        <div id="resultados"></div>
+    </div>
+
+    <script src="login.js"></script>
+    <script src="votacion.js"></script>
+</body>
+</html>
+
+
+</html>

@@ -1,0 +1,33 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  #votacion {
+    margin: 20px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  #votacion li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  #votacion li img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  #votacion li p {
+    margin: 5px 0;
+  }
+
+  h1{
+    text-align: center;
+    color: purple;
+}
